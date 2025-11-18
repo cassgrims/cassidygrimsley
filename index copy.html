@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #222918;
+            padding: 1em 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 2.5em;
+        }
+
+        nav a {
+            color: #EBDCC5;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #5D6737;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            font-weight: bold;
+            display: flex;
+            padding-top: 60px;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #EBDCC5;
+        }
+        .welcome-message {
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5em;
+            color: #222918;
+        }
+        .signature {
+            font-size: 0.5em;
+            margin-top: 20px;
+            font-style: italic;
+            font-weight: normal;
+            color: #5D6737;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="career.html">Career Interests</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
+    </nav>
+    <div class="welcome-message">
+        Welcome to my website!
+        <div class="signature">Thank You for Visiting - Cassidy Grimsley</div>
+    </div>
+</body>
+</html>

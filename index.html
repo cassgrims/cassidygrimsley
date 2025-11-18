@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cassidy Grimsley </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <!-- Navigation Menu (same on all pages) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="discover.html">Discover Duluth</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="game.html">Game</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1>Who am I?</h1>
+                <p>Hi! My name is Cassidy Grimsley, I am a senior at UMD, majoring in Communications and minoring in Marketing! I moved to Duluth only a year ago and I am loving living here 🍂</p>
+            </div>
+            <div class="intro-image">
+                <img src="images/cassidy.jpeg" alt="Cassidy Grimsley" class="profile-image">
+            </div>
+        </div>
+        
+        <div class="hobbies-section">
+            <div class="hobbies-content">
+                <div class="hobbies-images">
+                    <img src="images/fox-in-woods.JPG" alt="Fox in the woods" class="hobby-image">
+                    <img src="images/roomiesandboat(4).JPG" alt="Roomies and boat" class="hobby-image">
+                </div>
+                <div class="hobbies-text">
+                    <h2>My Hobbies</h2>
+                    <p>Lately, I have loved spending time outdoors. Photography has become a passion of mine and have enjoyed taking pictures of my friends and family! In addition to this, I have become involved in our schools Bird Club, leading to more time outside taking pics of native and rare birds! 📸🦅</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-section">
+            <h2>Get to Know Me Better</h2>
+            <div class="video-container">
+                <video controls class="intro-video" preload="metadata">
+                    <source src="videos/introductionvideo.mov" type="video/quicktime">
+                    <source src="videos/introductionvideo.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        
+        <div class="professional-section">
+            <h2>Professional Experience</h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <h3>Smiles for Jake</h3>
+                    <p class="experience-role">Suicide Awareness Non-Profit</p>
+                    <p>I have had the great experience of working with Smiles for Jake, a suicide prevention and mental health awareness non-profit organization. Within my time here, I learned skills with social media marketing, including the Facebook Business Suite and other Meta applications. I also was tasked to organize and run a 5K race to spread awareness about SFJ's mission! I spend time aswell at community events, communicating one-on-one with the people we strive to support!</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Target</h3>
+                    <p class="experience-role">Human Resources</p>
+                    <p>My experience in Human Resources at Target build my professional experience within corporate human resources. Within this position I was tasked to analyze and organize data relating to our team members. I routinely listened to their needs and wants from their leads and daily tasks. I also organized break room activities relating to the season!  </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (same on all pages) -->
+    <footer>
+        <p>&copy; 2025 Cassidy Grimsley. All rights reserved :)</p>
+    </footer>
+
+    <script>
+        // Ensure video has sound enabled
+        document.addEventListener('DOMContentLoaded', function() {
+            const video = document.querySelector('.intro-video');
+            if (video) {
+                video.volume = 1.0; // Set volume to maximum (100%)
+                video.muted = false; // Ensure video is not muted
+            }
+        });
+    </script>
+</body>
+</html>
